@@ -1,4 +1,3 @@
-JavaScript;
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 export const BotonPrincipal = ({ texto, alPresionar }) => {

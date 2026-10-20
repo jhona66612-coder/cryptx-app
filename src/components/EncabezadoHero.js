@@ -1,4 +1,3 @@
-JavaScript;
 import { StyleSheet, Text, View } from "react-native";
 
 export const EncabezadoHero = ({ titulo, subtitulo }) => {
