@@ -1,11 +1,9 @@
-JavaScript
-import React from 'react';
-import { StyleSheet, StatusBar } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { Logotipo } from '../components/Logotipo';
-import { IlustracionHero } from '../components/IlustracionHero';
-import { EncabezadoHero } from '../components/EncabezadoHero';
-import { BotonPrincipal } from '../components/BotonPrincipal';
+JavaScript;
+import { StatusBar, StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { BotonPrincipal } from "../components/BotonPrincipal";
+import { IlustracionHero } from "../components/IlustracionHero";
+import { Logotipo } from "../components/Logotipo";
 
 export const PantallaInicio = () => {
   return (
@@ -23,7 +21,7 @@ export const PantallaInicio = () => {
 
       <BotonPrincipal
         texto="Get Started"
-        alPresionar={() => console.log('Botón presionado')}
+        alPresionar={() => console.log("Botón presionado")}
       />
     </SafeAreaView>
   );
@@ -32,9 +30,9 @@ export const PantallaInicio = () => {
 const styles = StyleSheet.create({
   pantalla: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: "#000000",
     paddingHorizontal: 24,
     paddingBottom: 24,
-    justifyContent: 'space-between',
+    justifyContent: "space-between",
   },
 });

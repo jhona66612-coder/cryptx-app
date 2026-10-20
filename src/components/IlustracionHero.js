@@ -4,7 +4,7 @@ export const IlustracionHero = () => {
   return (
     <View style={styles.contenedor}>
       <Image
-        source={require("../assets/figura-3d.png")}
+        source={require("../../assets/123.png")}
         style={styles.imagen}
         resizeMode="contain"
       />
